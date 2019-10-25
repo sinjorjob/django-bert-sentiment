@@ -46,6 +46,7 @@ http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrain
 最低限必要なモジュールの導入
 ```
 conda create -n bert_model python=3.6
+conda activate bert_model
 conda install pytorch=0.4 torchvision -c pytorch
 conda install pytorch=0.4 torchvision cudatoolkit -c pytorch
 pip install pyknp
