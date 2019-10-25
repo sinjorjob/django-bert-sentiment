@@ -5,6 +5,8 @@
 https://github.com/YutaroOgawa/pytorch_advanced/blob/master/LICENSE  
 
 上記書籍では、IMDbのデータセットを用いた英語文章のネガポジ分類になっていますが、このリポジトリでは日本語文章でのネガポジ分類モデルになっています。  
+12個のAttentionの平均をとってどの単語を重視して判定したかも可視化できるようにしています。
+
 
 学習データにはTISが無料で公開している機械学習で感情解析を行うためのデータセット「chABSA-dataset」を用いています。  
 
@@ -16,7 +18,9 @@ BERTは京都大学が公開しているpytorch-pretrained-BERTモデルを利�
 
 http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB
 
+**デモ動画**
 
+![BERT](https://user-images.githubusercontent.com/34405452/67568657-c298d980-f767-11e9-8d3f-09230667772d.gif)
 
 
 # フォルダ構成  
