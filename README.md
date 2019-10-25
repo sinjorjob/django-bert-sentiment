@@ -57,7 +57,7 @@ pip install mojimoji
 pip install attrdict
 
 ```
-juman++の環境構築は以下の記事を参考に実施してください。
+juman++の環境構築は以下の記事を参考に実施してください。  
 https://sinyblog.com/deaplearning/juman/
 
 ### 1.3 パスの変更
