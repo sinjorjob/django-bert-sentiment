@@ -81,7 +81,7 @@ def conver_to_model_format(input_seq, TEXT):
     input_text = tokenizer_with_preprocessing(input_seq) #入力文章を前処理しTensorに変換
     input_text.insert(0, '[CLS]')
     input_text.append('[SEP]')
-    text = create_tensor(input_text, 256,TEXT)
+    text = create_tensor(input_text, max_length ,TEXT)
     text = text.unsqueeze_(0)   #  torch.Size([256])  > torch.Size([1, 256])
     input = text.to(device) # GPUが使えるならGPUにデータを送る
     return input
