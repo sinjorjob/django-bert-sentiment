@@ -75,7 +75,7 @@ Bertモデル用のVocabデータを以下の手順で作成する必要があ�
 python manage.py shell
 from app1.utils import *
 from app1.config import *
-TEXT = create_vocab(pkl_path)
+TEXT = create_vocab(PKL_FILE)
 ```
 ※bert\app1\data\text.pklが生成されます。
 
