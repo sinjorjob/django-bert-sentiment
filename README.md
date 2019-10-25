@@ -31,11 +31,6 @@ http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrain
     Djangoアプリケーションのソースコード
   
 
-```
-{'[PAD]': 0,'[UNK]': 1,'[CLS]': 2,'[SEP]': 3,'[MASK]': 4,'の': 5,'、': 6,　　・・・省略・・・
-```
-
-
 # Djangoアプリ構築手順
 
 
@@ -79,6 +74,14 @@ from app1.config import *
 TEXT = create_vocab(PKL_FILE)
 ```
 ※bert\app1\data\text.pklが生成されます。
+text.pklには以下のような語録辞書が登録されます。
+
+
+```
+{'[PAD]': 0,'[UNK]': 1,'[CLS]': 2,'[SEP]': 3,'[MASK]': 4,'の': 5,'、': 6,　　・・・省略・・・
+```
+
+
 
 ### 1.5 アプリ起動
 
